@@ -1,7 +1,5 @@
-package main
+package hello
 
-import "fmt"
-
-func main() {
-	fmt.Println("Hello! I'm learning golang. Meanwhile follow me on twitter @gk_cross")
+func Hello() string {
+	return "Hello, world."
 }
